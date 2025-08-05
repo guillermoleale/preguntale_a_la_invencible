@@ -6,6 +6,7 @@ Pillow>=10.0.0
 # LangChain for document processing and embeddings
 langchain>=0.1.0
 langchain-community>=0.0.13
+langchain-huggingface>=0.0.3
 
 # Vector database
 chromadb>=0.4.0
@@ -18,10 +19,8 @@ ollama>=0.1.0
 huggingface-hub>=0.16.0
 tiktoken>=0.4.0
 
-# Additional dependencies that might be needed
+# NumPy - Fixed version for compatibility
 numpy>=1.24.0,<2.0.0
 
-# Missing dependencies from your code
-pathlib2>=2.3.7; python_version < "3.4"
-concurrent-futures>=3.1.1; python_version < "3.2"
+# Additional dependencies
 typing-extensions>=4.0.0

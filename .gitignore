@@ -1,5 +1,6 @@
 /.DS_Store
 /__pycache__
 /docs
-/myenv
+/venv
 /documents
+test_build.py
