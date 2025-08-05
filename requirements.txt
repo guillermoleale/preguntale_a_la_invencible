@@ -1,0 +1,27 @@
+# Core dependencies for PDF processing and vector database
+pdfplumber>=0.9.0
+pytesseract>=0.3.10
+Pillow>=10.0.0
+
+# LangChain for document processing and embeddings
+langchain>=0.1.0
+langchain-community>=0.0.13
+
+# Vector database
+chromadb>=0.4.0
+
+# Embeddings
+sentence-transformers>=2.2.0
+transformers>=4.30.0
+torch>=2.0.0
+ollama>=0.1.0
+huggingface-hub>=0.16.0
+tiktoken>=0.4.0
+
+# Additional dependencies that might be needed
+numpy>=1.24.0,<2.0.0
+
+# Missing dependencies from your code
+pathlib2>=2.3.7; python_version < "3.4"
+concurrent-futures>=3.1.1; python_version < "3.2"
+typing-extensions>=4.0.0
