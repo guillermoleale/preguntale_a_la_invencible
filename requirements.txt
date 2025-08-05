@@ -7,13 +7,15 @@ Pillow>=10.0.0
 langchain>=0.1.0
 langchain-community>=0.0.13
 langchain-huggingface>=0.0.3
+langchain-chroma>=0.1.0
+langchain-ollama>=0.1.0
 
 # Vector database
 chromadb>=0.4.0
 
 # Embeddings
 sentence-transformers>=2.2.0
-transformers>=4.30.0
+transformers>=4.46.0
 torch>=2.0.0
 ollama>=0.1.0
 huggingface-hub>=0.16.0
@@ -24,3 +26,4 @@ numpy>=1.24.0,<2.0.0
 
 # Additional dependencies
 typing-extensions>=4.0.0
+warnings  
